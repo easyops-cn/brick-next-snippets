@@ -1,0 +1,44 @@
+{
+	"Insert a property annotaions": {
+		"prefix": "property",
+		"body": [
+		  "/**",
+		  " * @default ${2}",
+		  " * @required ${3}",
+		  " * @description ${4}",
+		  " */",
+		  "@property(${1})"
+		],
+		"description": "Insert a property annotaions"
+	  },
+	  "Insert a method annotaions": {
+		"prefix": "method",
+		"body": [
+		  "/**",
+		  " * @description ${1}",
+		  " */",
+		  "@method()"
+		],
+		"description": "Insert a method annotaions"
+	  },
+	  "Insert a event annotaions": {
+		"prefix": "event",
+		"body": [
+		  "/**",
+		  " * @detail ${2}",
+		  " * @description ${3}",
+		  " */",
+		  "@event({type: \"${1}\"})"
+		],
+		"description": "Insert a event annotaions"
+	  },
+	  "Create a component props interface": {
+		"prefix": "cpi",
+		"body": [
+		  "interface ${TM_FILENAME_BASE}Props {",
+		  "    ${1}",
+		  "}"
+		],
+		"description": "Create a component props interface"
+	  }
+}

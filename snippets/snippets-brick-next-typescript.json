@@ -1,0 +1,43 @@
+{
+	"Create a route conf": {
+		"prefix": "routeconf",
+		"body": [
+		  "import { RouteConf } from \"@easyops/brick-types\";",
+		  "",
+		  "export const ${TM_FILENAME_BASE/^([a-zA-Z])/${1:/capitalize}/}Route: RouteConf = {",
+		  "    path: \"${1}\",",
+		  "    type: \"${2|routes,brick,redirect|}\",",
+		  "    ${2}: ${3|[],\"\"|}",
+		  "}"
+		],
+		"description": "Create a route conf"
+	  },
+	  "Create a story template": {
+		"prefix": "story",
+		"body": [
+		  "import { Story } from \"@easyops/brick-types\";",
+		  "",
+		  "export const ${TM_FILENAME_BASE/^([a-zA-Z])/${1:/capitalize}/}Story: Story = {",
+		  "  storyId: \"${1}\",",
+		  "  category: \"${2|atom,business|}\",",
+		  "  type: \"${3|brick,template|}\",",
+		  "  author: \"${4}\",",
+		  "  text: {",
+		  "    en: \"${5}\",",
+		  "    zh: \"${6}\"",
+		  "  },",
+		  "  tags: [${7}],",
+		  "  description: {",
+		  "    en: \"${8}\",",
+		  "    zh: \"${9}\"",
+		  "  },",
+		  "  icon: {",
+		  "    lib: \"${10|antd,fa,easyops|}\",",
+		  "    icon: \"${11}\"",
+		  "  },",
+		  "  conf: [${12}]",
+		  "}"
+		],
+		"description": "Create a story template"
+	  }
+}

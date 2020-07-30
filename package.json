@@ -1,0 +1,39 @@
+{
+  "name": "brick-next-snippets-vscode",
+  "version": "0.0.1",
+  "description": "Brick Next Snippets for VS Code.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easyops-cn/brick-next-snippets-vscode.git"
+  },
+  "keywords": [
+    "brick",
+    "next",
+    "easyops",
+    "snippets"
+  ],
+  "publisher": "WHChen-Alex",
+  "bugs": {
+    "url": "https://github.com/easyops-cn/brick-next-snippets-vscode/issues"
+  },
+  "homepage": "https://github.com/easyops-cn/brick-next-snippets-vscode#readme",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "license": "MIT",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-brick-next-typescript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-brick-next-react-typescript.json"
+      }
+    ]
+  }  
+}
