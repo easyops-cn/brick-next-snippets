@@ -8,7 +8,7 @@ This extension provide Brick Next and React snippets in Typescript with babel pl
 
 ## Snippets
 
-### properyt - Insert a property annotaions
+### property - Insert a property annotaions
 
 ```typescript 
   /**
