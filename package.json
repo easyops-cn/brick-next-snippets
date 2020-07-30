@@ -1,6 +1,6 @@
 {
   "name": "brick-next-snippets-vscode",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Brick Next Snippets for VS Code.",
   "repository": {
     "type": "git",
@@ -35,5 +35,5 @@
         "path": "./snippets/snippets-brick-next-react-typescript.json"
       }
     ]
-  }  
+  }
 }
