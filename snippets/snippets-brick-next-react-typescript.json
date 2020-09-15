@@ -1,6 +1,6 @@
 {
 	"Insert a property annotaions": {
-		"prefix": "property",
+		"prefix": ["property","@property"],
 		"body": [
 		  "/**",
 		  " * @default ${2}",
@@ -12,7 +12,7 @@
 		"description": "Insert a property annotaions"
 	  },
 	  "Insert a method annotaions": {
-		"prefix": "method",
+		"prefix": ["method","@method"],
 		"body": [
 		  "/**",
 		  " * @description ${1}",
@@ -22,7 +22,7 @@
 		"description": "Insert a method annotaions"
 	  },
 	  "Insert a event annotaions": {
-		"prefix": "event",
+		"prefix": ["event","@event"],
 		"body": [
 		  "/**",
 		  " * @detail ${2}",
