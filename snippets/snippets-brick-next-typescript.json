@@ -13,7 +13,7 @@
 		"description": "Create a route conf"
 	  },
 	  "Create a story template": {
-		"prefix": "story",
+		"prefix": ["story","stories"],
 		"body": [
 		  "import { Story } from \"@easyops/brick-types\";",
 		  "",
